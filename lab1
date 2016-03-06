@@ -1,0 +1,1477 @@
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                                                [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                         ^[[>0;136;0c                       [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l[3Pwhoami;pwdls[Kwhoami;pwdgit config -l[Kgit clone https://github.com/stbn199650/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1.script
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ma lab1.script[C[1P lab1.scriptv lab1.script[C[C[C[C[C[C[C[C[C[C[C[C lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git status
+# On branch master
+# Your branch is ahead of 'lazy/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   lab1
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	.bash_history
+#	.bash_logout
+#	.bashrc
+#	.cache/
+#	.gitconfig
+#	.profile
+#	.viminfo
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit
+[?1049h[?1h=[1;37r[?12;25h[?12l[?25h[27m[m[38;5;251m[48;5;234m[H[2J[?25l[37;1H".git/COMMIT_EDITMSG" 21L, 482C[>c[1;1H[38;5;101m[48;5;232m  1 [m[38;5;251m[48;5;234m[48;5;235m                                                                             [m[38;5;251m[48;5;234m[2;1H[38;5;101m[48;5;232m  2 [m[38;5;251m[48;5;234m[38;5;143m# Please enter the commit message for your changes. Lines starting[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  3 [m[38;5;251m[48;5;234m[38;5;143m# with '#' will be ignored, and an empty message aborts the commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  4 [m[38;5;251m[48;5;234m[38;5;143m# On branch [m[38;5;251m[48;5;234m[38;5;223mmaster[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  5 [m[38;5;251m[48;5;234m[38;5;143m# Your branch is ahead of '[m[38;5;251m[48;5;234m[38;5;223mlazy/master[m[38;5;251m[48;5;234m[38;5;143m' by 1 commit.[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  6 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  7 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mChanges to be committed:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  8 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git reset HEAD <file>..." to unstage)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m  9 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 10 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;192mmodified[m[38;5;251m[48;5;234m[38;5;143m: [m[38;5;251m[48;5;234m[38;5;173m  lab1[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 11 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 12 [m[38;5;251m[48;5;234m[38;5;143m# [m[38;5;251m[48;5;234m[38;5;173mUntracked files:[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 13 [m[38;5;251m[48;5;234m[38;5;143m#   (use "git add <file>..." to include in what will be committed)[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 14 [m[38;5;251m[48;5;234m[38;5;143m#[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 15 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_history[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 16 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bash_logout[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 17 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.bashrc[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 18 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.cache/[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 19 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.gitconfig[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 20 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.profile[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m 21 [m[38;5;251m[48;5;234m[38;5;143m#   [m[38;5;251m[48;5;234m[38;5;173m.viminfo[m[38;5;251m[48;5;234m
+[38;5;101m[48;5;232m~                                                                                [23;1H~                                                                                [24;1H~                                                                                [25;1H~                                                         ^[[>0;136;0c                       [26;1H~                                                                                [27;1H~                                                                                [28;1H~                                                                                [29;1H~                                                                                [30;1H~                                                                                [31;1H~                                                                                [32;1H~                                                                                [33;1H~                                                                                [34;1H~                                                                                [35;1H~                                                                                [m[38;5;251m[48;5;234m[36;1H[38;5;230m[48;5;237m.git/COMMIT_EDITMSG                                            1,0-1         全部[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[37;1H[1m-- 插入 --[m[38;5;251m[48;5;234m[37;11H[K[36;66H[38;5;230m[48;5;237m1  [1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mc[m[38;5;251m[48;5;234m[36;21H[38;5;230m[48;5;237m[+][42C2[1;6H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mcr[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m3[1;7H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mri[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m4[1;8H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mip[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m5[1;9H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;111m[48;5;235mpt[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m6[1;10H[?12l[?25h[?25l[36;66H5[1;9H[?12l[?25h[?25l[36;66H4[1;8H[?12l[?25h[?25l[36;66H3[1;7H[?12l[?25h[?25l[36;66H2[1;6H[?12l[?25h[?25l[36;66H1[1;5H[?12l[?25h[?25l[m[38;5;251m[48;5;234m[38;5;101m[48;5;232m [m[38;5;251m[48;5;234m[38;5;111m[48;5;235mscript[m[38;5;251m[48;5;234m[36;66H[38;5;230m[48;5;237m2[1;6H[?12l[?25h[m[38;5;251m[48;5;234m[37;1H[K[1;5H[?25l[36;66H[38;5;230m[48;5;237m1[1;5H[?12l[?25h[?25l[37;1H[m[38;5;251m[48;5;234m:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 21L, 488C 已寫入
+[39;49m[?1l>[?12l[?25h[?1049l[master 14f88ce] script
+ 1 file changed, 6490 deletions(-)
+ rewrite lab1 (100%)
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git commit[K[K[K[Kstatusadd lab1.script
+fatal: pathspec 'lab1.script' did not match any files
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git add lab1.script[Kgit push lab1 lab1
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push lab1 lab1[K[K[K[K[1@-[1@u[1@ [C[C[C[C[Cmaster
+Username for 'https://github.com': stbm b1  n199650
+Password for 'https://stbn199650@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/stbn199650/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt remote s[Kadd lab1 git@github.com:stbn199650/lab1.git
+fatal: remote lab1 already exists.
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git push -u lab1 lab1
+Username for 'https://github.com': stbm1  n199650
+Password for 'https://stbn199650@github.com': 
+error: src refspec lab1 does not match any.
+error: failed to push some refs to 'https://github.com/stbn199650/lab1.git'
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ ls
+lab1  [0m[01;34mlazypack[0m
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cst [K[K[Kat lab1.script
+cat: lab1.script: No such file or directory
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ cat lab1
+Script started on 2016年03月06日 (週日) 16時07分08秒
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ whoami [K;pwd
+F74046365
+/home/F74046365
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$ git config -l
+user.name=stbn199650
+user.email=stbn199650@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.lazy.url=https://github.com/stbn199650/lazypack.git
+remote.lazy.fetch=+refs/heads/*:refs/remotes/lazy/*
+branch.master.remote=lazy
+branch.master.merge=refs/heads/master
+remote.lab1.url=https://github.com/stbn199650/lab1.git
+remote.lab1.fetch=+refs/heads/*:refs/remotes/lab1/*
+]0;F74046365@2015cpp: ~[01;32mF74046365@2015cpp[00m:[01;34m~[00m$  gitclonehttps://github.com/<your githubaccount>/lab1.git[C[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.gits/lab1.gitt/lab1.gitb/lab1.gitn/lab1.git1/lab1.git9/lab1.git9/lab1.git6/lab1.git5/lab1.git0/lab1.git ehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pehttps://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/stbn199650/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+Cloning into 'lab1'...
+Username for 'https://github.com': stbn199650
+Password for 'https://stbn199650@github.com': 
+error: The request
