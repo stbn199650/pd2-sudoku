@@ -17,7 +17,7 @@ int main(){
 	}
 
 	while(inFile >> cm >> kg){
-		
+		if(cm==0 || kg==0){exit(0);}
 		outFile << dt.BMI(cm,kg) << "\t" << dt.category(dt.BMI(cm,kg)) << endl;
 	}
 	
