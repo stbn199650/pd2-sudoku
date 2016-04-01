@@ -41,14 +41,12 @@ void Sudoku::solve(){
 			for(int k=num[i];k<10;k++){
 				in[i]=k;
 				if(checkRow(i,k)==1 && checkCol(i,k)==1 && checkBlock(i,k)==1){
-					cout<<"in[i]="<<k;
 					count++;cout<<"count="<<count;
 					num[i]=k+1;	//若此格須重填，從k+1開始
 					break;
 				}
-			//	in[i]=0;	
 				if(k==9 && (count==0)){	//判斷無解
-						cout<<"count="<<count<<"0.no answer"<<endl;
+						cout<<"count="<<count<<"0"<<endl;
 						exit(0);
 				}	
 				if(k==9 && (checkRow(i,k)==0 || checkCol(i,k)==0 || checkBlock(i,k)==0) && count!=0){
@@ -57,7 +55,7 @@ void Sudoku::solve(){
 					i-=2;	//因為for會再+1
 					in[i+1]=0;
 					count--;
-				//	break;
+					break;
 				}
 			}
 		}
