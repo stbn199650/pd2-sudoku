@@ -7,9 +7,9 @@ class Sudoku{
 		void giveQuestion();
 		void readIn();
 		void solve();
-		bool checkRow(int n);
-		bool checkCol(int n);
-		bool checkBlock(int n);
+		int checkRow(int num,int n);
+		int checkCol(int num,int n);
+		int checkBlock(int num,int n);
 		void changeNum(int a,int b);
 		void changeRow(int a,int b);
 		void changeCol(int a,int b);
@@ -20,7 +20,6 @@ class Sudoku{
 		void printOut();
 
 	private:
-		int count;
 		int ques[82];
 		int in[82];
 		int fp[82];
