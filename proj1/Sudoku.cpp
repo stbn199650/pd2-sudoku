@@ -43,6 +43,7 @@ void Sudoku::solve(){
 		if(map[i]==0){
 			for(int k=in[i]+1;k<10;k++){
 				if(checkRow(i,k)==1 && checkCol(i,k)==1 && checkBlock(i,k)==1){
+<<<<<<< HEAD
 					in[i]=k;	//條件符合才會把數字填進去
 					break;
 				}
@@ -54,6 +55,22 @@ void Sudoku::solve(){
 					in[i]=0;
 					i=findzero(i);	//回到上一個0的前一個(for會把i+1)
 					//in[i+1]=0;
+=======
+					count++;cout<<"count="<<count;
+					num[i]=k+1;	//若此格須重填，從k+1開始
+					break;
+				}
+				if(k==9 && (count==0)){	//判斷無解
+						cout<<"count="<<count<<"0"<<endl;
+						exit(0);
+				}	
+				if(k==9 && (checkRow(i,k)==0 || checkCol(i,k)==0 || checkBlock(i,k)==0) && count!=0){
+					in[i]=0;num[i]=1;
+					while(map[i-1]!=0){i--;}	//回到上一個原本是0的地方
+					i-=2;	//因為for會再+1
+					in[i+1]=0;
+					count--;
+>>>>>>> e6ee40086d731fc7fac526a29beb36fb3fae989e
 					break;
 				}
 			}
