@@ -33,47 +33,46 @@ void Sudoku::readIn(){
 	for(int i=0;i<81;i++){cin>>in[i];}
 }
 void Sudoku::solve(){
-	int num[82],count=0,check=0;	//count計算已經填幾格 
+	int check=0;
 	for(int i=0;i<81;i++){map[i]=in[i];}
-	for(int i=0;i<81;i++){num[i]=1;}	//num計算要從哪個數字開始填	
+	for(int i=0;i<81;i++){	//算有幾個0
+		if(in[i]==0)
+		check++;	
+	}
 	for(int i=0;i<81;i++){
-		if(in[i]==0){
-			for(int k=num[i];k<10;k++){
-				in[i]=k;
+		if(map[i]==0){
+			for(int k=in[i]+1;k<10;k++){
 				if(checkRow(i,k)==1 && checkCol(i,k)==1 && checkBlock(i,k)==1){
-					cout<<"in[i]="<<k;
-					count++;cout<<"count="<<count;
-					num[i]=k+1;	//若此格須重填，從k+1開始
+					in[i]=k;	//條件符合才會把數字填進去
 					break;
 				}
-			//	in[i]=0;	
-				if(k==9 && (count==0)){	//判斷無解
-						cout<<"count="<<count<<"0.no answer"<<endl;
-						exit(0);
-				}	
-				if(k==9 && (checkRow(i,k)==0 || checkCol(i,k)==0 || checkBlock(i,k)==0) && count!=0){
-					in[i]=0;num[i]=1;
-					while(map[i-1]!=0){i--;}	//回到上一個原本是0的地方
-					i-=2;	//因為for會再+1
-					in[i+1]=0;
-					count--;
-				//	break;
+				if(i==0 && in[i]==0){
+					cout<<"0"<<endl;
+					exit(0);
+				}
+				if(k==9){
+					in[i]=0;
+					i=findzero(i);	//回到上一個0的前一個(for會把i+1)
+					//in[i+1]=0;
+					break;
 				}
 			}
 		}
-	}	
-		cout<<endl<<"1"<<endl;
-		for(int i=0;i<81;i++){
-			cout<<in[i];
-			(i%9)==8?cout<<'\n':cout<<' ';
-		}
-	
-	return;
+	}
+	for(int i=0;i<81;i++){
+		cout<<in[i];
+		(i%9)==8?cout<<endl:cout<<' ';
+	}
+}
+int Sudoku::findzero(int n){
+	while(in[n-1]!=0){n--;}
+	n-=2;
+	return n;
 }
 int Sudoku::checkRow(int num,int n){	//num:第幾個  n:1~9
 	int row=num-num%9;
-	for(int i=0;i<9;i++){
-		if((in[row+i]==in[num]) && ((row+i)!=num))
+	for(int i=0;i<10;i++){
+		if((in[row+i]==n) && ((row+i)!=num))
 			return 0;
 	}
 	return 1;
@@ -82,7 +81,7 @@ int Sudoku::checkCol(int num,int n){
 	int col=num%9,k;
 	for(int i=0;i<9;i++){
 		k=i*9+col;
-		if((in[k]==in[num]) && (k!=num))
+		if((in[k]==n) && (k!=num))
 			return 0;
 	}
 	return 1;
@@ -98,12 +97,12 @@ int Sudoku::checkBlock(int num,int n){
 	else if(col<=5){m=1;}
 	else{m=2;}
 
+	cout<<"i="<<num<<"n="<<n<<endl;
 	k=27*l+3*m;	//block 左上角的數字
 	for(int i=0;i<3;i++){
 		for(int j=0;j<3;j++){
 			p=k+9*i+j;
-			if(in[p]==in[num] && p!=num){
-				cout<<"in[p]="<<in[p]<<endl;
+			if(in[p]==n && p!=num){
 				return 0;
 			}
 		}
