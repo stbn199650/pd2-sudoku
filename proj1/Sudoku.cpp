@@ -223,7 +223,7 @@ void Sudoku::flip(int n){
 	}
 	if(n==1){
 		for(int i=0;i<81;i++){
-			k=2*(4-i%9);
+			k=2*(4-i%9)+i;
 			fp[k]=in[i];	
 		}
 	}
