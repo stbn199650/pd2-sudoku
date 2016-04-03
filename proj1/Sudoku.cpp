@@ -82,6 +82,7 @@ void Sudoku::solve(){
 				cout<<"2"<<endl;
 				exit(0);
 			}
+		}
 	}
 	for(int i=0;i<81;i++){map[i]=0;}
 	solve1();
@@ -98,7 +99,8 @@ void Sudoku::solve(){
 		for(int i=0;i<81;i++){
 			cout<<map[i];
 			(i%9)==8?cout<<endl:cout<<' ';
-		}exit(0);
+		}
+		exit(0);
 	}
 }
 int Sudoku::checkRow(int num,int n){	//num:第幾個  n:1~9
