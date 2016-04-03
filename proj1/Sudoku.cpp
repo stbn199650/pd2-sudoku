@@ -78,11 +78,9 @@ void Sudoku::solve(){
 				cout<<"0"<<endl;
 				exit(0);
 			}
-			else{
-				cout<<"2"<<endl;
-				exit(0);
-			}
 		}
+		cout<<"2"<<endl;
+		exit(0);
 	}
 	for(int i=0;i<81;i++){map[i]=0;}
 	solve1();
@@ -166,12 +164,15 @@ void Sudoku::changeRow(int a,int b){
 }
 void Sudoku::changeCol(int a,int b){
 	int temp;
+	int x=3*a,y=3*b;
 	if(a != b){
-		for(int i=a;i<81;i+=9){
-			temp=in[i];
-			in[i]=in[b];
-			in[b]=temp;
-			b+=9;
+		for(int i=0;i<81;i+=7){
+			for(int j=x;j<3;j++){
+				temp=in[i+j];
+				in[i+j]=in[y];
+				in[y]=temp;
+				y++;
+			}y+=6;
 		}
 	}
 }
