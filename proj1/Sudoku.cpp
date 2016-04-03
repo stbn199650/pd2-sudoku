@@ -42,7 +42,7 @@ void Sudoku::solve1(){
 	}
 	if(check==0){
 		count++;
-		if(count>=2){	//多解，直接結束
+		if(count>=2){	
 			return;	
 		}
 		for(int i=0;i<81;i++){
@@ -67,24 +67,31 @@ void Sudoku::solve1(){
 }
 void Sudoku::solve(){
 	
-	int check=0;
-	
+	int check=0,add=0;
+	for(int i=0;i<81;i++){	//計算有幾個數字
+		if(in[i]!=0)
+			add++;
+	}
+	if(add<17){		//小於17個數字==>多解
+		cout<<"2"<<endl;
+		exit(0);
+	}
 	for(int i=0;i<81;i++){map[i]=0;}
 	solve1();
 	if(count==2){
 		cout<<"2"<<endl;
-		//exit(0);
+		exit(0);
 	}
 	if(map[0]==0){
 		cout<<"0"<<endl;
-		//exit(0);
+		exit(0);
 	}
 	if(count==1){
 		cout<<"1"<<endl;
 		for(int i=0;i<81;i++){
 			cout<<map[i];
 			(i%9)==8?cout<<endl:cout<<' ';
-		}
+		}exit(0);
 	}
 }
 int Sudoku::checkRow(int num,int n){	//num:第幾個  n:1~9
