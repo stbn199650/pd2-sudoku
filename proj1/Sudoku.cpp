@@ -73,8 +73,15 @@ void Sudoku::solve(){
 			add++;
 	}
 	if(add<17){		//小於17個數字==>多解
-		cout<<"2"<<endl;
-		exit(0);
+		for(int i=0;i<81;i++){
+			if(in[i]!=0 && (checkRow(i,in[i])==0 || checkCol(i,in[i])==0 || checkBlock(i,in[i])==0)){
+				cout<<"0"<<endl;
+				exit(0);
+			}
+			else{
+				cout<<"2"<<endl;
+				exit(0);
+			}
 	}
 	for(int i=0;i<81;i++){map[i]=0;}
 	solve1();
