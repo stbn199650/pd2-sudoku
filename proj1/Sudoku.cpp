@@ -78,11 +78,9 @@ void Sudoku::solve(){
 				cout<<"0"<<endl;
 				exit(0);
 			}
-			else{
-				cout<<"2"<<endl;
-				exit(0);
-			}
 		}
+		cout<<"2"<<endl;
+		exit(0);
 	}
 	for(int i=0;i<81;i++){map[i]=0;}
 	solve1();
