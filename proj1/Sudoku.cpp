@@ -239,7 +239,6 @@ void Sudoku::flip(int n){
 	return;
 }
 void Sudoku::transform(){
-	readIn();
 	change();
 	printOut();
 }
