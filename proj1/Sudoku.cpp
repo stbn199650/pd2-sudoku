@@ -210,6 +210,11 @@ void Sudoku::rotate(int n){
 			if(i/9 == 8){fp[728-i*9]=in[i];}
 		}
 	}
+	else if(n%4 ==0){
+		for(int i=0;i<81;i++){
+			fp[i]=in[i];
+		}
+	}
 	for(int i=0;i<81;i++){in[i]=fp[i];}
 }
 void Sudoku::flip(int n){
