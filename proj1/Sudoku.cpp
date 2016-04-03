@@ -167,7 +167,7 @@ void Sudoku::changeCol(int a,int b){
 	int x=3*a,y=3*b;
 	if(a != b){
 		for(int i=0;i<81;i+=7){
-			for(int j=x;j<3;j++){
+			for(int j=x;j<x+3;j++){
 				temp=in[i+j];
 				in[i+j]=in[y];
 				in[y]=temp;
