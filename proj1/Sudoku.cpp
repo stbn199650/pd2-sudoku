@@ -166,8 +166,8 @@ void Sudoku::changeCol(int a,int b){
 	int temp;
 	int x=3*a,y=3*b;
 	if(a != b){
-		for(int i=0;i<81;i+=7){
-			for(int j=x;j<3;j++){
+		for(int i=0;i<81;i+=9){
+			for(int j=x;j<x+3;j++){
 				temp=in[i+j];
 				in[i+j]=in[y];
 				in[y]=temp;
@@ -177,7 +177,6 @@ void Sudoku::changeCol(int a,int b){
 	}
 }
 void Sudoku::rotate(int n){
-
 	int k,m;
 	if(n%4 == 1){
 		for(int i=0;i<81;i++){
@@ -218,28 +217,14 @@ void Sudoku::flip(int n){
 	int k;
 	if(n==0){
 		for(int i=0;i<81;i++){
-			if(i/9 == 0){k=9*(i+1)-1;  fp[k]=in[i];}
-			else if(i/9 == 1){k=9*(i-8)-2;  fp[k]=in[i];}
-			else if(i/9 == 2){k=9*(i-17)-3; fp[k]=in[i];}
-			else if(i/9 == 3){k=9*(i-26)-4; fp[k]=in[i];}
-			else if(i/9 == 4){k=9*(i-35)-5; fp[k]=in[i];}
-			else if(i/9 == 5){k=9*(i-44)-6; fp[k]=in[i];}
-			else if(i/9 == 6){k=9*(i-53)-7; fp[k]=in[i];}
-			else if(i/9 == 7){k=9*(i-62)-8; fp[k]=in[i];}
-			else if(i/9 == 8){k=9*(i-72);   fp[k]=in[i];}
+			k=18*(4-i/9)+i;
+			fp[k]=in[i];
 		}
 	}
-	if(n == 1){
+	if(n==1){
 		for(int i=0;i<81;i++){
-			if(i%9 == 0){fp[i+8]=in[i];}
-			if(i%9 == 1){fp[i+6]=in[i];}
-			if(i%9 == 2){fp[i+4]=in[i];}
-			if(i%9 == 3){fp[i+2]=in[i];}
-			if(i%9 == 4){fp[i] = in[i];}
-			if(i%9 == 5){fp[i-2]=in[i];}
-			if(i%9 == 6){fp[i-4]=in[i];}
-			if(i%9 == 7){fp[i-6]=in[i];}
-			if(i%9 == 8){fp[i-8]=in[i];}
+			k=2*(4-i%9);
+			fp[k]=in[i];	
 		}
 	}
 	for(int i=0;i<81;i++){in[i]=fp[i];}
