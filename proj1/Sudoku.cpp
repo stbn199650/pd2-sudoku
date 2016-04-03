@@ -142,6 +142,7 @@ int Sudoku::checkBlock(int num,int n){
 }
 void Sudoku::changeNum(int a,int b){
 	int x,y;
+	if(a==b){return;}
 	for(int i=0;i<81;i+=9){		//remember the array address to exchange
 		for(int j=0;j<9;j++){
 			if(in[i+j]==a){x=i+j;}
@@ -149,32 +150,33 @@ void Sudoku::changeNum(int a,int b){
 		}
 		swap(in[x],in[y]);
 	}
+	return;
 }
 void Sudoku::changeRow(int a,int b){
 	int temp;
 	int x=27*a,y=27*b;
-	if(a != b){
-		for(int i=x;i<x+27;i++){
-			temp=in[i];
-			in[i]=in[y];
-			in[y]=temp;
-			y++;
-		}
+	if(a==b){return;}
+	for(int i=x;i<x+27;i++){
+		temp=in[i];
+		in[i]=in[y];
+		in[y]=temp;
+		y++;
 	}
+	return;
 }
 void Sudoku::changeCol(int a,int b){
 	int temp;
 	int x=3*a,y=3*b;
-	if(a != b){
-		for(int i=0;i<81;i+=9){
-			for(int j=x;j<x+3;j++){
-				temp=in[i+j];
-				in[i+j]=in[y];
-				in[y]=temp;
-				y++;
-			}y+=6;
-		}
+	if(a==b)return;
+	for(int i=0;i<81;i+=9){
+		for(int j=x;j<x+3;j++){
+			temp=in[i+j];
+			in[i+j]=in[y];
+			in[y]=temp;
+			y++;
+		}y+=6;
 	}
+	return;
 }
 void Sudoku::rotate(int n){
 	int k,m;
@@ -233,6 +235,7 @@ void Sudoku::flip(int n){
 		}
 	}
 	for(int i=0;i<81;i++){in[i]=fp[i];}
+	return;
 }
 void Sudoku::transform(){
 	readIn();
