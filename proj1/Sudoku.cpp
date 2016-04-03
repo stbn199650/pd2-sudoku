@@ -3,7 +3,7 @@
 #include<ctime>
 #include"Sudoku.h"
 using namespace std;
-int add=0;
+int count=0;
 void Sudoku::giveQuestion(){
 	
 	int n;
@@ -41,104 +41,51 @@ void Sudoku::solve1(){
 		}
 	}
 	if(check==0){
-		add++;
-		if(add>=2){
-			cout<<"2"<<endl;
-			return;
+		count++;
+		if(count>=2){	//多解，直接結束
+			return;	
+		}
+		for(int i=0;i<81;i++){
+			map[i]=in[i];
 		}
 		return;
 	}
 	for(int i=0;i<81;i++){
 		if(in[i]==0){
 			for(int k=1;k<10;k++){
-				in[i]=k;
 				if(checkRow(i,k)==1 && checkCol(i,k)==1 && checkBlock(i,k)==1){
 					in[i]=k;
 					solve1();
 					in[i]=0;
 				}
+				if(count==2)return;
 			}
-			if(add==2)return;
+			return;		
+			//如果填不進去，回上一個數字，先設為0(填到9都進不去的話，再回上一個，下次才可以填，否則會跳過)，從下一個數字開始填
 		}
-		return;
 	}
 }
 void Sudoku::solve(){
-	int check=0,add=0,count=0;	//add:填到第幾格
-	int re[82]={0};	//計算這格一次迴圈填了幾次
-	int last[82]={0};
-	int arr[81][200]={0};
-	for(int i=0;i<81;i++){map[i]=in[i];}
-	for(int i=0;i<81;i++){out[i]=0;}
+	
+	int check=0;
+	
+	for(int i=0;i<81;i++){map[i]=0;}
 	solve1();
-	if(add==2){goto print;}
-	if(out[0]==0){
-		cout<<"0"<<endl;
+	if(count==2){
+		cout<<"2"<<endl;
+		//exit(0);
 	}
-print:
-	if(add==1){
+	if(map[0]==0){
+		cout<<"0"<<endl;
+		//exit(0);
+	}
+	if(count==1){
 		cout<<"1"<<endl;
 		for(int i=0;i<81;i++){
-			cout<<in[i];
+			cout<<map[i];
 			(i%9)==8?cout<<endl:cout<<' ';
 		}
 	}
-}
-/*	for(int i=0;i<81;i++){
-		if(map[i]==0){
-			for(int k=last[i]+1;k<10;k++){
-				re[i]++;
-				cout<<"i="<<i<<"k="<<k;
-				if(checkRow(i,k)==1 && checkCol(i,k)==1 && checkBlock(i,k)==1){
-					in[i]=k;	//條件符合才會把數字填進去
-					add++;
-					cout<<"succeed";
-					re[i]=0;
-					if(k==9)last[i]=0;	//k==9，下次從1開始填
-					else last[i]=k;
-					break;
-				}
-				if(in[i]!=0 && k==9){
-					i=findzero(i);
-					break;
-				}
-			cout<<"checkRow="<<checkRow(i,k);
-			cout<<"checkCol="<<checkCol(i,k);
-			cout<<"checkBlock="<<checkBlock(i,k)<<endl;
-				if(k==9 && add==0){	//無解條件
-					cout<<"0"<<endl;
-					exit(0);
-				}
-				if(k==9){
-					in[i]=0;
-					for(int j=1;j<=i;j++){
-						if(map[i-j]==0){i-=j;break;}	//回到上一個原本是0的地方
-					}
-					i--;	//因為for會再+1
-					break;
-				}
-				if(k==9 && re[i]<8){
-					last[i]=0;	//不是從1開始填，填到9都不行，再回到1開始填
-					i--;
-					add--;
-					break;
-				}
-				if((in[i]!=0 && re[i]==8) || (in[i]==0 && re[i]==9)){
-					re[i]=0;	//從1開始填，填到9都不行，回上一格填
-					i=findzero(i);
-					break;
-				}
-			}
-		}
-		if(i==80 && in[i]!=0)count++;
-	}
-}*/
-int Sudoku::findzero(int n){
-	for(int j=1;j<=n;j++){
-		if(map[n-j]==0){n-=j;break;}	//回到上一個原本是0的地方
-	}
-	n--;	//因為for會再+1
-	return n;
 }
 int Sudoku::checkRow(int num,int n){	//num:第幾個  n:1~9
 	int k=num/9,row=9*k;

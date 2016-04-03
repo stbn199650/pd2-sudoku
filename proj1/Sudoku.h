@@ -8,8 +8,6 @@ class Sudoku{
 		void readIn();
 		void solve();
 		void solve1();
-		void addtime(int n);
-		int findzero(int n);
 		int checkRow(int num,int n);
 		int checkCol(int num,int n);
 		int checkBlock(int num,int n);
@@ -23,8 +21,6 @@ class Sudoku{
 		void printOut();
 
 	private:
-		int add;
-		int re[82];
 		int ques[82];
 		int out[82];
 		int in[82];
