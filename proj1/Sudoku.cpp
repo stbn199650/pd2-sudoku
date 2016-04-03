@@ -218,6 +218,7 @@ void Sudoku::rotate(int n){
 		}
 	}
 	for(int i=0;i<81;i++){in[i]=fp[i];}
+	return;
 }
 void Sudoku::flip(int n){
 
