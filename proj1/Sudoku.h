@@ -7,6 +7,8 @@ class Sudoku{
 		void giveQuestion();
 		void readIn();
 		void solve();
+		void solve1();
+		void addtime(int n);
 		int findzero(int n);
 		int checkRow(int num,int n);
 		int checkCol(int num,int n);
@@ -22,8 +24,9 @@ class Sudoku{
 
 	private:
 		int add;
-		int re[10];
+		int re[82];
 		int ques[82];
+		int out[82];
 		int in[82];
 		int fp[82];
 		int map[82];
